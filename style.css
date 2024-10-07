@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.4);
   padding: 10px;
   position: fixed; /* Fixes the navbar at the top */
   top: 0; /* Positions it at the top */
@@ -27,7 +27,6 @@ body {
   height: 40px;
   width: auto;
   border-radius: 10px;
-  box-shadow: 1px 2px 5px rgb(255, 255, 255);
   /* margin-right: 500px; */
 }
 .navbar .button a {
@@ -47,10 +46,11 @@ body {
 /* Search box */
 .navbar input[type="text"] {
   padding: 9px;
+  color: black;
   width: 250px;
   border-radius: 10px;
   border: 1px solid #424141;
-  box-shadow: 1px 2px 4px rgb(171, 171, 171);
+  background-color: rgba(255, 255, 255, 0.5);
   margin-left: 200px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
