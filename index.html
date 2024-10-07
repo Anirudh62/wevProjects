@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TheTopaTB</title>
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <!-- Video as logo -->
+      <div class="logo">
+        <video autoplay muted loop disablePictureInPicture id="logoVideo">
+          <source src="TheTubiTB.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="button">
+        <a href="index.html">Home</a>
+        <a href="https://pcmirror.cc/movies">Movies</a>
+        <a href="https://moviesmod.day/web-series/">Series</a>
+      </div>
+
+      <!-- Search box -->
+      <input type="text" placeholder="Search..." />
+
+      <!-- Buttons for Sign Up and Log In -->
+      <div class="buttons">
+        <a href="login.html">Sign Up</a>
+        <a href="signup.html">Log In</a>
+      </div>
+    </div>
+    <div class="banner">
+      <h1 id="heading"></h1>
+      <!-- Initially empty -->
+      <p id="paragraph"></p>
+      <!-- Initially empty -->
+    </div>
+    <div class="image-gallery">
+      <!-- Image items will be dynamically inserted here -->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
